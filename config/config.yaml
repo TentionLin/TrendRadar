@@ -125,6 +125,27 @@ rss:
       name: "Hacker News"
       url: "https://hnrss.org/frontpage"
       max_age_days: 3
+      # ⚠️ HN内容太泛，保留但接受少量噪音
+
+    - id: "semiconductor-engineering"
+      name: "Semiconductor Engineering"
+      url: "https://semiengineering.com/feed/"
+      max_age_days: 3
+
+    - id: "eetimes"
+      name: "EE Times"
+      url: "https://www.eetimes.com/feed/"
+      max_age_days: 3
+
+    - id: "anandtech"
+      name: "AnandTech"
+      url: "https://www.anandtech.com/rss/"
+      max_age_days: 3
+
+    - id: "reuters-tech"
+      name: "Reuters Tech"
+      url: "https://www.reutersagency.com/feed/"
+      max_age_days: 2
 
     - id: "36kr"
       name: "36氪"
