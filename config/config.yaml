@@ -187,6 +187,16 @@ rss:
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
 
+    - id: "investing-stocknews"
+      name: "英为财情·股市新闻"
+      url: "https://cn.investing.com/rss/news_25.rss"
+      max_age_days: 1
+
+    - id: "investing-market"
+      name: "英为财情·市场分析"
+      url: "https://cn.investing.com/rss/market_overview.rss"
+      max_age_days: 2
+
     # 自定义源示例
     # - id: "custom-feed"
     #   name: "自定义源"
