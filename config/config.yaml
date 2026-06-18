@@ -123,9 +123,19 @@ rss:
   feeds:
     - id: "hacker-news"
       name: "Hacker News"
-      url: "https://hnrss.org/frontpage"
+      url: "https://hnrss.org/frontpage?count=15"
+      max_age_days: 2
+      # ⚠️ HN太泛——只保留前15条热帖，缩短时效为2天
+
+    - id: "tomshardware"
+      name: "Tom's Hardware"
+      url: "https://www.tomshardware.com/feeds/all"
       max_age_days: 3
-      # ⚠️ HN内容太泛，保留但接受少量噪音
+
+    - id: "arstechnica"
+      name: "Ars Technica"
+      url: "https://feeds.arstechnica.com/arstechnica/index"
+      max_age_days: 3
 
     - id: "semiconductor-engineering"
       name: "Semiconductor Engineering"
