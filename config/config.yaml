@@ -78,9 +78,6 @@ platforms:
     - id: "bilibili-hot-search"
       name: "bilibili 热搜"
       expected_domain: "bilibili.com"
-    - id: "cls-hot"
-      name: "财联社热门"
-      expected_domain: "cls.cn"
     - id: "ifeng"
       name: "凤凰网"
       expected_domain: "ifeng.com"
@@ -90,9 +87,6 @@ platforms:
     - id: "douyin"
       name: "抖音"
       expected_domain: "douyin.com"
-    - id: "zhihu"
-      name: "知乎"
-      expected_domain: "zhihu.com"
 
 
 
@@ -297,7 +291,7 @@ display:
   # 独立展示区：将指定平台/RSS 完整展示，不受关键词过滤
   # 推送展示由 regions.standalone 控制，AI 分析由 ai_analysis.include_standalone 控制
   standalone:
-    platforms: ["zhihu", "wallstreetcn-hot"]     # 热榜平台 ID 列表（如 ["zhihu", "weibo"]）
+    platforms: ["wallstreetcn-hot"]     # 热榜平台 ID 列表 — 知乎已移除（噪音太大）
     rss_feeds: []                                # RSS 源 ID 列表（如 ["hacker-news"]）
     max_items: 20                                # 每个源最多展示条数（0=不限制）
 
