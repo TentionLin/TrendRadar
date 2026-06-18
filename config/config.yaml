@@ -158,8 +158,9 @@ rss:
       max_age_days: 1
 
     - id: "cls-rss"
-      name: "财联社"
-      url: "https://www.cls.cn/telegraph"
+      name: "财联社电报"
+      url: "https://rsshub.app/cls/telegraph"
+      # ⚠️ RSSHub代理财联社，GitHub Actions环境可能通过Cloudflare
       max_age_days: 1
 
     - id: "eet-china"
