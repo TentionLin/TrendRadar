@@ -124,6 +124,27 @@ rss:
     - id: "hacker-news"
       name: "Hacker News"
       url: "https://hnrss.org/frontpage"
+      max_age_days: 3
+
+    - id: "36kr"
+      name: "36氪"
+      url: "https://36kr.com/feed"
+      max_age_days: 1
+
+    - id: "cls-rss"
+      name: "财联社"
+      url: "https://www.cls.cn/telegraph"
+      max_age_days: 1
+
+    - id: "eet-china"
+      name: "电子工程专辑"
+      url: "https://www.eet-china.com/feed.xml"
+      max_age_days: 3
+
+    - id: "laoyaoba"
+      name: "集微网"
+      url: "https://laoyaoba.com/feed"
+      max_age_days: 2
 
     - id: "ruanyifeng"
       name: "阮一峰的网络日志"
