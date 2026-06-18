@@ -175,7 +175,7 @@ jobs:
         if: success()
         uses: actions/upload-pages-artifact@v3
         with:
-          path: output/news
+          path: output
 
   deploy:
     if: success()
